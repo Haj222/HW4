@@ -1,0 +1,22 @@
+Relative -> gives a position 
+div -> inside a div 
+
+abosulte -> postion hs top, right, width,height, border
+
+abosulte is realtie to the nearet postion ancestor .. in this case realtive 
+realtie div is relative to the parent 
+
+sitcky .. when top is at 0 .... when it reache to top it will sitck to top. 
+
+Flexbox allows you to create afille an alligned bckgorun 
+
+Flexbox is either up an down or let and right (vertical/horizontal)
+
+flexwrap allows you to wrap and is responise 
+
+justify content --> center .. allows you to make it all in center
+
+use grid for x and y ... 
+
+Flexbox is just x OR y 
+

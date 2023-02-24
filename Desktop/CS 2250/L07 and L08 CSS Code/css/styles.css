@@ -1,0 +1,87 @@
+/** More information on https://www.w3schools.com/css/default.asp **/
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 50px 0px;
+}
+
+.blue {
+  background: blue;
+}
+
+.fence {
+  border: 2px dashed hotpink;
+}
+
+/** Applies to all spans with class name "strike" **/
+span.strike {
+  text-decoration: line-through;
+}
+
+/** Applies to all img inside divs with class name puppies, and any element with class name "special" **/
+div.puppies img,
+.special {
+  height: 250px;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+table {
+  border: 1px solid black;
+  width: 50%;
+  border-spacing: 30px;
+}
+
+table tr th,
+table tr td {
+  color: rgb(14, 179, 132);
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.poem {
+  color: red;
+  line-height: 30px;
+}
+
+.poem .upper {
+  text-transform: uppercase;
+}
+
+.poem .lonely {
+  text-shadow: 20px 20px rgb(2, 255, 82);
+}
+
+/** Psuedo elements and psuedo selectors are very useful **/
+.poem::first-letter {
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: rgb(214, 16, 158);
+}
